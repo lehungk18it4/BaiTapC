@@ -1,0 +1,16 @@
+download https://git-scm.com/download/win
+
+
+3 lệnh để đồng bộ những thứ mình sửa lên server
+1. git add . (chú ý có dấu .)
+2. git commit -m "động từ và mô tả"
+3. git push
+có thể dùng lệnh git status để xem
+
+lệnh git status
+- nếu chữ màu đỏ nghĩa là đã có chỉnh sửa nhưng chưa khai báo bằng lệnh add
+- nếu chữ màu xanh lá cây là đã có chỉnh sửa và đã khai báo bằng lệnh add
+- nếu không xuất hiện gì cả nghĩa là đã commit
+lệnh commit
+- báo cho hệ thống rằng những thứ đã chỉnh sửa được ghi vào hệ thống
+- lệnh commit chỉ áp dụng đối với những thay đổi đã đc khai báo bằng lệnh add
